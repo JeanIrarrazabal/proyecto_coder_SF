@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Auto</title>
+	<link rel="stylesheet" type="text/css" href="css/diseno.css">
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+	<header>
+		<!--Logo inicial en toda las paginas-->
+		<div class="container-fluid">
+			<div class="row">
+					<a class="col-sm-4 col-md-4 col-lg-4 col-xl-4" href="index.html"><img id="logo" src="Imagenes\logo_seguros.jpg"></a>
+
+				<div class="col-xl-4"></div>
+
+			<!--menú con el submenu aplicables en todas las pagínas-->
+				<section class="header_menu">
+					<div class="col-sm-12 col-md-8 col-lg-8 col-xl-4">
+						<div class="btn-group">
+							<a class="btn btn-success" href="Index.html">Inicio</a>
+							<div class="btn-group">
+								<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">Auto</button>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="Auto.html#linkDenuncio">Denuncio</a>
+									<a class="dropdown-item" href="Auto.html#linkAtencionTercero">Atención de terceros Involucrados</a>
+									<a class="dropdown-item" href="Auto.html#linkProcesoReparacion">Proceso de reparación</a>
+									<a class="dropdown-item" href="Auto.html#linkDeducible">Deducible</a>
+									<a class="dropdown-item" href="Auto.html#linkPerdidaTotal">Perdida Total</a>
+									<a class="dropdown-item" href="Auto.html#linkLiquidacion">Liquidación</a>
+								</div>
+							</div>
+							<div class="btn-group">
+								<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">Nps</button>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="Nps.html#LinkNps">¿Qué es NPS?</a>
+									<a class="dropdown-item" href="Nps.html#LinkParaQueSirveNps">¿Para qué sirve el NPS?</a>
+									<a class="dropdown-item" href="Nps.html#LinkComoSeAgrupan">¿Cómo se agrupan los clientes segun la nota?</a>
+									<a class="dropdown-item" href="Nps.html#LinkComoCalcularlo">¿Cómo calcularlo?</a>
+								</div>
+							</div>
+							<a class="btn btn-success" href="Glosario.html">Glosario</a>
+							<a class="btn btn-success" href="Contacto.html">Contacto</a>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</header>
+
+	<main class="main_auto">
+		<!--Titulo de la pagína-->
+		<h1 id="main_jumbotrom_titulos" class="jumbotron text-center">Auto</h1>
+
+		<!--Submenu main-->
+		<div class="container-fluid">
+			<div class="row">
+				<nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end col-sm-12 col-md-12 col-lg-12 col-xl-12">
+		  
+					<form class="form-inline">
+				      <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+				      <button class="btn btn-outline-success" type="submit">Buscar</button>
+			    	</form>
+				</nav>
+			</div>
+		</div>
+		<br>
+	<!--Contenido de la pagina-->
+		<div class="container-fluid">
+			<div class="row">
+
+				<div class="card-deck">
+				  <div class="card border-success col-sm-12 col-md-12">
+				    <img class="card-img-top" src="Imagenes\denuncio.jpg">
+				    <div class="card-body">
+					    <h5 class="card-title">Denuncio</h5>
+					    <p class="card-text">Cuando un cliente tenga un siniestro este tiene que ser denunciado diractamente en la compañia aseguradora, tanto por teléfono o 	en su página de web.</p>
+
+						<!-- Button trigger modal -->
+						<button type="button" class="btn btn-success" data-toggle="modal" data-target="#denuncioAuto"> Seguir leyendo </button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="denuncioAuto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						  <div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLabel">Denuncio</h5>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						        <p>Cuando un cliente tenga un siniestro este tiene que ser denunciado diractamente en la compañia aseguradora, tanto por teléfono o 	en su página de web.Ya no es necesario realizar la constancia en carabineros para hacer efectivo el seguro, salvo en caso de robo. accidentes que involucre lesionados o fallecidos. Cuando se realice la denuncia en la compañía se te solicitará una declaración jurada simple (no es necesario que sea ante notario).</p>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+				    </div>
+				  </div>
+		<!-------------------------------------------------------------------------------------------------------------------------------------------------------->		  
+				  <div class="card border-success col-sm-12 col-md-12">
+				    <img class="card-img-top" src="Imagenes\terceros.png">
+				    <div class="card-body">
+					    <h5 class="card-title">Atención de terceros Involucrados</h5>
+					    <p class="card-text">Es deber de cada asegurado declarar el siniestro en su compañía e informar todos los datos del tercero involucrado el vehículo y las circunstancias de los hechos. Cabe considerar que los terceros carecen de autoridad ante la compañía de seguros.</p>
+
+						<!-- Button trigger modal -->
+						<button type="button" class="btn btn-success" data-toggle="modal" data-target="#terceroAuto"> Seguir leyendo </button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="terceroAuto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						  <div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLabel">Atención de terceros Involucrados</h5>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						        <div class="main_parrofo">
+									<p>Es deber de cada asegurado declarar el siniestro en su compañía e informar todos los datos del tercero involucrado el vehículo y las circunstancias de los hechos. Cabe considerar que los terceros carecen de autoridad ante la compañía de seguros.</p>
+									<h6>Existen los terceros culpables e inocentes</h6>
+									
+									<ol>
+										<li class="fraseContinuacion">En caso de terceros culpables:</li>
+											<p>La compañía se hará cargo de los daños del asegurado y posteriormente buscará recuperar los costos con el tercero culpable. El pago del deducible del asegurado no está incluido, salvo algún beneficio estipulado en la póliza (deducible inteligente)</p>
+										<li class="fraseContinuacion">En caso de tercero inocente:</li>
+											<p>La compañía se hará cargo de los daños propios del asegurado y bajo la cobertura de RC se hará cargo de los daños del tercero afectado. La póliza estipula que esta cobertura se hará bajo sentencia ejecutoriada (Demanda), salvo que la compañía ofrezca algún otro medio de avenimiento con el tercero, quien a su solo opción podrá aceptar.</p>
+									</ol>
+								</div>
+
+								<div class="main_parrofo">
+									<h6 class="preguntas">¿Por qué hay veces que la compañía de seguros ofrece al tercero afectado un 75% y no el 100%?</h6>
+									<p>Debemos recordar que la cobertura RC se otorga bajo sentencia ejecutoriada o demanda hacia el asegurado, pero la compañía podrá practicar algún modo de avenimiento, según el siguiente ejemplo:</p>
+									<ul>
+										<li>Consideraremos un siniestro donde nuestro asegurado es culpable y ha declarado el siniestro como corresponde</li>
+										<li>El asegurado entrega el numero de siniestro al tercero afectado y éste se presenta en la compañía con el vehículo para su respectiva liquidación</li>
+										<li>El liquidador asignado inspecciona el vehículo del tercero y le pide que realice un presupuesto por los daños y se los traiga. También puede darse que el liquidador asigna un taller de la compañía para que se realice el presupuesto.</li>
+										<li>Una vez que el tercero entregue este documento al liquidador, éste podrá ofrecer el pago integro del presupuesto, podrá mandar a reparar el vehículo u ofrecer el pago de un porcentaje del presupuesto, lo cual podrá aceptar el tercero solo bajo su consentimiento.</li>
+										<li>Una vez aceptado el acuerdo, el tercero firmará un finiquito ante notario, donde acepta las condiciones de pago quedando en plena conformidad y además queda eximido de ejercer alguna acción legal en contra de la compañía de seguros, en contra del asegurado y en contra del corredor de seguros.</li>
+									</ul>
+								</div>	
+						      </div>
+
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+				    </div>
+				  </div>
+		<!-------------------------------------------------------------------------------------------------------------------------------------------------------->
+				  <div class="card border-success col-sm-12 col-md-12">
+				    <img class="card-img-top" src="Imagenes\reparacion.jpg">
+				    <div class="card-body">
+					    <h5 class="card-title">Proceso de reparación</h5>
+					    <p class="card-text">Una vez obtenido los datos entregados por la compañía sobre el siniestro (n° de siniestro, liquidador y taller), los pasos son los siguientes:</p>
+
+						<!-- Button trigger modal -->
+						<button type="button" class="btn btn-success" data-toggle="modal" data-target="#reparacionAuto"> Seguir leyendo </button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="reparacionAuto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						  <div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLabel">Proceso de reparación</h5>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						        <div class="main_parrofo">
+									<p>Una vez obtenido los datos entregados por la compañía sobre el siniestro (n° de siniestro, liquidador y taller), los pasos son los siguientes:</p>
+									<ol>
+										<li>Asegurado coordina el ingreso a taller</li>
+										<li>Se ingresa el auto al taller según lo coordinado</li>
+										<li>Liquidador inspecciona auto en el taller donde se encuentra el vehiculo.</li>
+										<li>Taller emite un presupuesto con los daños del vehiculo</li>
+										<li>Liquidador evalua presupuesto y emite la orden de trabajo en caso de estar aprobado</li>
+										<li>Taller comienza con la reparación del auto</li>
+										<li>En caso de existir repuestos involucrados la compañia se encarga de suministrarlo para los talleres multimarca y en caso de un concesionario ellos son los suministradores.</li>
+										<li>Se entrega una fecha estimada de entrega</li>
+										<li>Se entrega el vehículo y se firma una recibo de conformidad</li>
+									</ol>
+								</div>
+								<div class="main_parrofo">
+									<p class="preguntas">Si la reparación es defectuosa ¿Qué puede hacer el asegurado?</p>
+									<p>La compañía garantiza que la reparación del vehículo quede en perfectas condiciones, pero en casos que ésta quede con problemas, el asegurado puede solicitar el re-ingreso al taller dando aviso al liquidador para que re-inspeccione los detalles y formalice al taller una orden de trabajo.</p>
+									<br>
+									<h6 class="fraseContinuacion">Importante:</h6>
+									<p>La garantía es de 1 año para desabolladura y pintura, 6 meses si es por mecánica y es efectuada en el mismo taller reparador.</p>
+								</div>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+		<br>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------->		
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------->
+		<div class="container-fluid">
+			<div class="row">
+
+				<div class="card-deck">
+				 <div class="card border-success col-sm-12">
+				    <img class="card-img-top" src="Imagenes\deducible.png">
+				    <div class="card-body">
+					    <h5 class="card-title">Deducible</h5>
+					    <p class="card-text">¿Cuándo y dónde se cancela el deducible?</p>
+					    <p>Es importante destacar que para determinar la cantidad de siniestros o eventos , se debe considerar la dinámica del evento  que provocó el daño , los siniestros no  son acumulables con daños anteriores , y se deben explicar según una línea de tiempo y la Cobertura de la póliza que se está aplicando.</p>
+
+						<!-- Button trigger modal -->
+						<button type="button" class="btn btn-success" data-toggle="modal" data-target="#deducibleAuto"> Seguir leyendo </button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="deducibleAuto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						  <div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLabel">Deducible</h5>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						        <div class="main_parrofo">
+									<p class="preguntas">¿Cuándo y dónde se cancela el deducible?</p>
+									<p>Es importante destacar que para determinar la cantidad de siniestros o eventos , se debe considerar la dinámica del evento  que provocó el daño , los siniestros no  son acumulables con daños anteriores , y se deben explicar según una línea de tiempo y la Cobertura de la póliza que se está aplicando.</p>
+
+									<p class="fraseContinuacion">Ejemplo :</p>
+									<p>Si cliente declara lo siguiente : “Cuando  llegó a buscar su auto al lugar de estacionamiento lo encontró con el parabrisas trizado y lo habían chocado en el parachoque trasera.” Daños ; Parabrisas y parachoque trasero.</p>
+									<p>Para el cliente va a ser un solo siniestro y cuando  lo declare la ejecutiva de la compañía asignará un solo siniestro , pero cuando el liquidador analice el caso , se verificará que es imposible que los dos daños que declara cliente hayan ocurrido al mismo  tiempo; además , aplican dos coberturas distintas de la póliza , daños propios por choque y rotura de vidrios; por lo que liquidador le solicitará a cliente declarar otro evento para atender cada daño con un siniestro , corresponde pagar de deducible por cada uno de los siniestros. </p>
+								</div>
+								<div class="main_parrofo">
+									<p class="preguntas">¿Qué sucede cuando el deducible es mayor al valor de reparación del vehículo?</p>
+									<p>En este caso el liquidador deberá determinar luego que el taller emita el presupuesto. En caso que la reparación sea inferior, el liquidador deberá informar al asegurado que el siniestro queda rechazado y puede optar con la reparación directa con el taller.</p>
+								</div>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+				    </div>
+				  </div>
+		<!-------------------------------------------------------------------------------------------------------------------------------------------------------->		  
+				  <div class="card border-success col-sm-12">
+				    <img class="card-img-top" src="Imagenes\total.jpg">
+				    <div class="card-body">
+					    <h5 class="card-title">Perdida Total</h5>
+					    <p class="card-text">Si la reparación del vehículo es Superior al 65% o 75% del valor comercial definido por póliza o en caso de Robo/ hurto del auto es superior a 30 días corridos y este no es hallado se tiene que declarar perdida Total.</p>
+
+						<!-- Button trigger modal -->
+						<button type="button" class="btn btn-success" data-toggle="modal" data-target="#perdidaAuto"> Seguir leyendo </button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="perdidaAuto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						  <div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLabel">Perdida Total</h5>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						        <div class="main_parrofo">
+									<p>Si la reparación del vehículo es Superior al 65% o 75% del valor comercial definido por póliza o en caso de Robo/ hurto del auto es superior a 30 días corridos y este no es hallado se tiene que declarar perdida Total.</p>
+									<ul>
+										<li>Los Restos del vehículo se quedan a nombre de la Compañía</li>
+										<li>El Vehículo al ser declarado perdida total,  es asignado a un liquidador especializado.</li>
+									</ul>
+									<p class="fraseContinuacion">Existen 2 modalidades de liquidación para la perdida total y esta se define según las siguientes características:</p>
+									<ol>
+										<li>Vehículos con menos de 365 días desde nuevo hasta el siniestro, es restituido el bien.</li>
+											<ul>
+												<li>La marca y modelo debe estar disponible mercados </li>
+												<li>El asegurado debe ser el primer dueño</li>
+											</ul>
+											
+										<li>Vehículos con mas de 365 días desde nuevo hasta el siniestro, se indemniza al valor comercial </li>
+									</ol>
+
+									<h6 class="fraseContinuacion">Antecedentes del Asegurado y del Conductor al momento del siniestro (Persona Natural)</h6>
+									<ul>
+										<li>Fotocopia de la Cédula de Identidad por ambos lados.</li>
+										<li>Fotocopia de la Licencia de Conducir por ambos lados.</li>
+									</ul>
+
+									<h6 class="fraseContinuacion">Antecedentes del Asegurado y del Conductor al momento del siniestro (Persona Jurídica)</h6>
+									<ul>
+										<li>Rut de la Empresa, fotocopia por ambos lados.</li>
+										<li>Extracto de la Escritura de la empresa o Sesión de Poderes, fotocopia.</li>
+										<li>Fotocopia de la Cédula de Identidad del Representante legal, por ambos lados.</li>
+										<li>Fotocopia de la Cédula de Identidad del Conductor, por ambos lados.</li>
+										<li>Fotocopia de la Licencia de Conducir del Conductor, por ambos lados.</li>
+									</ul>
+								</div>
+								<div class="main_parrofo">
+									<h6 class="fraseContinuacion">Etapas de la Liquidación</h6>
+									<ul>
+										<li>Valorización del vehículo siniestrado y propuesta de monto al asegurado</li>
+										<li>Aprobación del valor por el asegurado</li>
+										<li>Firma ante notario de Finiquito y Mandato, para poder de transferir el vehículo.</li>
+										<li>Recibidos los documentos firmados, se procede a gestionar indemnización o reposición.</li>
+									<ul>
+										<li>Si es indemnización, esta se pagará en un plazo de 10 a 15 días hábiles .</li>
+										<li>Si es reposición, dependerá de la disponibilidad de vehículos existentes en plaza</li>
+									</ul>
+										<li>Pago del deducible pactado en la propuesta y el pago de primas pendientes hasta completar el año de vigencia.</li>
+									</ul>
+								</div>
+						      </div>
+
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+				    </div>
+				  </div>
+		<!-------------------------------------------------------------------------------------------------------------------------------------------------------->
+				  <div class="card border-success col-sm-12">
+				    <img class="card-img-top" src="Imagenes\liquidacion.jpg">
+				    <div class="card-body">
+					    <h5 class="card-title">Liquidación</h5>
+					    <p class="card-text">El liquidador registrado y la compañía aseguradora, en caso que practique la liquidación del siniestro en forma directa, deberán emitir dentro del más breve plazo el informe de liquidación, no pudiendo exceder de 45 días corridos contados desde la fecha del denuncio del siniestro</p>
+
+						<!-- Button trigger modal -->
+						<button type="button" class="btn btn-success" data-toggle="modal" data-target="#liquidacionAuto"> Seguir leyendo </button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="liquidacionAuto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						  <div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <h5 class="modal-title" id="exampleModalLabel">Liquidación</h5>
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						          <span aria-hidden="true">&times;</span>
+						        </button>
+						      </div>
+						      <div class="modal-body">
+						        <div class="main_parrofo">
+									<h6 class="fraseContinuacion">Plazo de Liquidación</h6>
+									<p>El liquidador registrado y la compañía aseguradora, en caso que practique la liquidación del siniestro en forma directa, deberán emitir dentro del más breve plazo el informe de liquidación, no pudiendo exceder de 45 días corridos contados desde la fecha del denuncio del siniestro</p>
+									<br>
+									<h6 class="fraseContinuacion">Impugnación del informe de liquidación.</h6>
+									<p>Recibido el informe de un liquidador registrado, el asegurado dispondrán de un plazo de 10 días para impugnarlo. Una vez recibido la impugnación la compañía tendrá 6 días para dar respuesta si mantiene o revierte e rechazo. Este conducto se tiene que realizar de forma directa al liquidador de seguro de la compañia.</p>
+								</div>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+				    </div>
+				  </div>
+				</div>
+			</div>
+		</div>
+
+	</main>
+	<br>
+<!--Pie de Página-->
+
+<footer>
+	<ul class="footer">
+		<li class="footer_lista"><img src="Imagenes\logo_paragua.png" width="40" height="40">  Canales de Atención:</li>
+		<li class="footer_lista"><img src="Imagenes\logo_telefono.png" width="40" height="40">  600 390 1000</li>
+		<li class="footer_lista"><img src="Imagenes\logo-whatsapp.png" width="60" height="40">  +56 2 2390 6570</li>
+		<li class="footer_lista"><img src="Imagenes\logo_web.png" width="40" height="40"> 
+		<a class="footer_link" href="https://web.segurosfalabella.com/cl/?_ga=2.118380681.1236180018.1609099463-716833253.1609099463">  web.segurosfalabella.com</a></li>
+	</ul>
+</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

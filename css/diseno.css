@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/*Se quita el margen y el padding a toda la pagina*/
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box; }
+
+/*direccion del menu del header*/
+.header_menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+/*tamaño del jumbotrom*/
+#main_jumbotrom_index {
+  height: 180px;
+  padding-top: 30px;
+  padding-bottom: 20px; }
+
+#main_jumbotrom_titulos {
+  height: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.img_alerta {
+  width: 30px; }
+
+/*Excusivamente para subtitulos h3 de todas las paginas*/
+.subtitulos {
+  color: #4d4d4d;
+  text-decoration: underline;
+  font-family: 'Anton', sans-serif; }
+
+/*Estilo para todas las preguntas y frases importantes que se deben destacar */
+.preguntas, .fraseContinuacion {
+  font-weight: bold; }
+
+/*Main Formulario*/
+.scrollGlosario {
+  overflow: scroll;
+  height: 500px;
+  margin: 10px 15px 10px 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #EAFAF1; }
+
+/*Estilo main auto */
+.main_auto, .main_nps, .main_glosario {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.main_contacto {
+  margin-left: 250px;
+  margin-right: 250px; }
+
+.main_parrofo {
+  margin-left: 20px; }
+
+/*Estilo el pie de pagina */
+.footer, .footer_lista {
+  display: inline-block;
+  background-color: #4d4d4d;
+  color: #EAFAF1; }
+
+.footer {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.footer_lista {
+  width: 23%;
+  text-align: center;
+  font-weight: bold; }
+
+/*Color link*/
+.footer_link {
+  color: #EAFAF1;
+  font-weight: bold; }
+
+/*Color cuando paso el mouse en el link*/
+.footer_link:hover {
+  color: #EAFAF1;
+  font-weight: bold; }
