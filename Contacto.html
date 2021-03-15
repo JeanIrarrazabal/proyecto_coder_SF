@@ -23,39 +23,21 @@
 	<meta property="og:image" content="Imagenes\logo_seguros.jpg">
 </head>
 <body>
-<header>
+	<header>
 		<!--Logo inicial en toda las paginas-->
 		<div class="container-fluid">
 			<div class="row">
-					<a class="col-sm-4 col-md-4 col-lg-4 col-xl-4" href="index.html"><img id="logo" src="Imagenes\logo_seguros.jpg"></a>
+				<a class=" col-md-2 col-lg-4 col-xl-4" href="index.html"><img id="logo" src="Imagenes\logo_seguros.jpg" alt="logo de seguros"></a>
 
-				<div class="col-xl-4"></div>
+			<div class="col-sm-6 col-md-6 col-lg-4 col-xl-5"></div>
 
 			<!--menú con el submenu aplicables en todas las pagínas-->
 				<section class="header_menu">
-					<div class="col-sm-12 col-md-8 col-lg-8 col-xl-4">
+					<div class="col-sm-6 col-md-4 col-lg-4 col-xl-3">
 						<div class="btn-group">
 							<a class="btn btn-success" href="index.html">Inicio</a>
-							<div class="btn-group">
-								<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">Auto</button>
-								<div class="dropdown-menu">
-									<a class="dropdown-item" href="Auto.html#linkDenuncio">Denuncio</a>
-									<a class="dropdown-item" href="Auto.html#linkAtencionTercero">Atención de terceros Involucrados</a>
-									<a class="dropdown-item" href="Auto.html#linkProcesoReparacion">Proceso de reparación</a>
-									<a class="dropdown-item" href="Auto.html#linkDeducible">Deducible</a>
-									<a class="dropdown-item" href="Auto.html#linkPerdidaTotal">Perdida Total</a>
-									<a class="dropdown-item" href="Auto.html#linkLiquidacion">Liquidación</a>
-								</div>
-							</div>
-							<div class="btn-group">
-								<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">Nps</button>
-								<div class="dropdown-menu">
-									<a class="dropdown-item" href="Nps.html#LinkNps">¿Qué es NPS?</a>
-									<a class="dropdown-item" href="Nps.html#LinkParaQueSirveNps">¿Para qué sirve el NPS?</a>
-									<a class="dropdown-item" href="Nps.html#LinkComoSeAgrupan">¿Cómo se agrupan los clientes segun la nota?</a>
-									<a class="dropdown-item" href="Nps.html#LinkComoCalcularlo">¿Cómo calcularlo?</a>
-								</div>
-							</div>
+							<a class="btn btn-success" href="Auto.html">Auto</a>
+							<a class="btn btn-success" href="Nps.html">NPS</a>
 							<a class="btn btn-success" href="Glosario.html">Glosario</a>
 							<a class="btn btn-success" href="Contacto.html">Contacto</a>
 						</div>
@@ -76,56 +58,58 @@
 
 	<main class="main_contacto">
 
-	<!--Formulario-->
+		<!--Formulario-->
 
 		<form id="formularioContacto">
 			<h3 class="subtitulos"> Formulario de contacto en caso de problema</h3>
-		    <div class="form-group">
-		        <label for="txtNombre"> Nombre y Apellido</label>
-		        <input type="text" id="txtNombre" class="form-control">
-		    </div>
+			   <div class="form-group">
+			        <label for="txtNombre"> Nombre y Apellido</label>
+			        <input type="text" id="txtNombre" class="form-control">
+			    </div>
 
-		    <div class="form-group">
+			    <div class="form-group">
 
-		        <label for="exampleFormControlInput1">Email</label>
-	    		<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-		    </div>
+			        <label for="exampleFormControlInput1">Email</label>
+		    		<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+			    </div>
 
-			<div class="form-group">
-				<label for="exampleFormControlSelect1">Pagina</label>
-				<select class="form-control" id="exampleFormControlSelect1">
-				    <option>Auto</option>
-				    <option>NPS</option>
-				    <option>Glosario</option>
-				</select>
-			</div>
+				<div class="form-group">
+					<label for="exampleFormControlSelect1">Pagina</label>
+					<select class="form-control" id="exampleFormControlSelect1">
+					    <option>Auto</option>
+					    <option>NPS</option>
+					    <option>Glosario</option>
+					</select>
+				</div>
 
-		    <div class="form-group">
+			    <div class="form-group">
 
-		        <label for="txtComentarios">Detallanos el problema</label>
-		        <textarea id="txtComentarios" class="form-control"> </textarea>
-		    </div>
+			        <label for="txtComentarios">Detallanos el problema</label>
+			        <textarea id="txtComentarios" class="form-control"> </textarea>
+			    </div>
 
-		    <button type="button" class="btn btn-success">Enviar</button>
+			    <button type="button" class="btn btn-success">Enviar</button>
 
-		</form>
+			</form>
 
 	</main>
 
 	<br>
-<!--Pie de Página-->
+	<!--Pie de Página-->
 
-<footer>
-	<ul class="footer">
-		<li class="footer_lista"><img src="Imagenes\logo_paragua.png" width="40" height="40">  Canales de Atención:</li>
-		<li class="footer_lista"><img src="Imagenes\logo_telefono.png" width="40" height="40">  600 390 1000</li>
-		<li class="footer_lista"><img src="Imagenes\logo-whatsapp.png" width="60" height="40">  +56 2 2390 6570</li>
-		<li class="footer_lista"><img src="Imagenes\logo_web.png" width="40" height="40"> 
-		<a class="footer_link" href="https://web.segurosfalabella.com/cl/?_ga=2.118380681.1236180018.1609099463-716833253.1609099463">  web.segurosfalabella.com</a></li>
-	</ul>
-</footer>
+	<footer>
+		<ul class="footer">
+			<li class="footer_lista"><img src="Imagenes\logo_paragua.png" width="40" height="40">  Canales de Atención:</li>
+			<li class="footer_lista"><img src="Imagenes\logo_telefono.png" width="40" height="40">  600 390 1000</li>
+			<li class="footer_lista"><img src="Imagenes\logo-whatsapp.png" width="60" height="40">  +56 2 2390 6570</li>
+			<li class="footer_lista"><img src="Imagenes\logo_web.png" width="40" height="40"> 
+			<a class="footer_link" href="https://web.segurosfalabella.com/cl/?_ga=2.118380681.1236180018.1609099463-716833253.1609099463">  web.segurosfalabella.com</a></li>
+		</ul>
+	</footer>
+
+	<!--Script-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
- 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

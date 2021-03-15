@@ -22,39 +22,21 @@
 	<meta property="og:image" content="Imagenes\logo_seguros.jpg">
 </head>
 <body>
-<header>
+	<header>
 		<!--Logo inicial en toda las paginas-->
 		<div class="container-fluid">
 			<div class="row">
-					<a class="col-sm-4 col-md-4 col-lg-4 col-xl-4" href="index.html"><img id="logo" src="Imagenes\logo_seguros.jpg"></a>
+					<a class=" col-md-2 col-lg-4 col-xl-4" href="index.html"><img id="logo" src="Imagenes\logo_seguros.jpg" alt="logo de seguros"></a>
 
-				<div class="col-xl-4"></div>
+				<div class="col-sm-6 col-md-6 col-lg-4 col-xl-5"></div>
 
 			<!--menú con el submenu aplicables en todas las pagínas-->
 				<section class="header_menu">
-					<div class="col-sm-12 col-md-8 col-lg-8 col-xl-4">
+					<div class="col-sm-6 col-md-4 col-lg-4 col-xl-3">
 						<div class="btn-group">
 							<a class="btn btn-success" href="index.html">Inicio</a>
-							<div class="btn-group">
-								<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">Auto</button>
-								<div class="dropdown-menu">
-									<a class="dropdown-item" href="Auto.html#linkDenuncio">Denuncio</a>
-									<a class="dropdown-item" href="Auto.html#linkAtencionTercero">Atención de terceros Involucrados</a>
-									<a class="dropdown-item" href="Auto.html#linkProcesoReparacion">Proceso de reparación</a>
-									<a class="dropdown-item" href="Auto.html#linkDeducible">Deducible</a>
-									<a class="dropdown-item" href="Auto.html#linkPerdidaTotal">Perdida Total</a>
-									<a class="dropdown-item" href="Auto.html#linkLiquidacion">Liquidación</a>
-								</div>
-							</div>
-							<div class="btn-group">
-								<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">Nps</button>
-								<div class="dropdown-menu">
-									<a class="dropdown-item" href="Nps.html#LinkNps">¿Qué es NPS?</a>
-									<a class="dropdown-item" href="Nps.html#LinkParaQueSirveNps">¿Para qué sirve el NPS?</a>
-									<a class="dropdown-item" href="Nps.html#LinkComoSeAgrupan">¿Cómo se agrupan los clientes segun la nota?</a>
-									<a class="dropdown-item" href="Nps.html#LinkComoCalcularlo">¿Cómo calcularlo?</a>
-								</div>
-							</div>
+							<a class="btn btn-success" href="Auto.html">Auto</a>
+							<a class="btn btn-success" href="Nps.html">NPS</a>
 							<a class="btn btn-success" href="Glosario.html">Glosario</a>
 							<a class="btn btn-success" href="Contacto.html">Contacto</a>
 						</div>
@@ -72,11 +54,11 @@
 		<div class="container-fluid">
 			<div class="row">
 				<nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end col-sm-12 col-md-12 col-lg-12 col-xl-12">
-		  
+			  
 					<form class="form-inline">
-				      <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
-				      <button class="btn btn-outline-success" type="submit">Buscar</button>
-			    	</form>
+					     <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
+					     <button class="btn btn-outline-success" type="submit">Buscar</button>
+				    </form>
 				</nav>
 			</div>
 		</div>
@@ -87,38 +69,40 @@
 			<div class="row">
 
 				<div class="card-deck">
-				  <div class="card border-success">
-				    <img class="card-img-top" src="Imagenes\nps.png" width="200px" height="250px">
-				    <div class="card-body">
-					    <h5 class="card-title">¿Qué es NPS?</h5>
-					    <p class="card-text">CEl NPS es una puntuación calculada a partir de una pregunta que se envía a los clientes para conocer si recomendarían Seguros Falabella. Esta medición se realiza a partir de la clasificación otorgada por los clientes, en un rango del 0 al 10.</p>
+					<div class="col-sm-12 col-md-6 col-lg-4 col-xl-4"> <br>
+					  <div class=" card border-success">
+					    <img class="card-img-top" src="Imagenes\nps.png" width="200px" height="250px">
+					    <div class=" card-body">
+						    <h5 class="card-title">¿Qué es NPS?</h5>
+						    <p class="card-text">CEl NPS es una puntuación calculada a partir de una pregunta que se envía a los clientes para conocer si recomendarían Seguros Falabella. Esta medición se realiza a partir de la clasificación otorgada por los clientes, en un rango del 0 al 10.</p>
 
-						<!-- Button trigger modal -->
-						<button type="button" class="btn btn-success" data-toggle="modal" data-target="#nps"> Seguir leyendo </button>
+							<!-- Button trigger modal -->
+							<button type="button" class="btn btn-success" data-toggle="modal" data-target="#nps"> Seguir leyendo </button>
 
-						<!-- Modal -->
-						<div class="modal fade" id="nps" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-						  <div class="modal-dialog" role="document">
-						    <div class="modal-content">
-						      <div class="modal-header">
-						        <h5 class="modal-title" id="exampleModalLabel">¿Qué es NPS?</h5>
-						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						          <span aria-hidden="true">&times;</span>
-						        </button>
-						      </div>
-						      <div class="modal-body">
-						        <p>El NPS es una puntuación calculada a partir de una pregunta que se envía a los clientes para conocer si recomendarían Seguros Falabella. Esta medición se realiza a partir de la clasificación otorgada por los clientes, en un rango del 0 al 10. EL NPS  es una visión simplificada pero muy efectiva para conocer qué tan satisfechos se encuentran y si son promotores o detractores de la marca, es decir, su nivel de lealtad. Si no sabes qué es el NPS entonces no te has dado cuenta por qué muchos de los clientes te han abandonado. Hay clientes que puedes estar perdiendo, lo que puede traer como consecuencia la fuga de estos clientes y que no vuelvan más.</p>
-						      </div>
-						      <div class="modal-footer">
-						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-						      </div>
-						    </div>
-						  </div>
-						</div>
-				    </div>
+							<!-- Modal -->
+							<div class="modal fade" id="nps" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <h5 class="modal-title" id="exampleModalLabel">¿Qué es NPS?</h5>
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							          <span aria-hidden="true">&times;</span>
+							        </button>
+							      </div>
+							      <div class="modal-body">
+							        <p>El NPS es una puntuación calculada a partir de una pregunta que se envía a los clientes para conocer si recomendarían Seguros Falabella. Esta medición se realiza a partir de la clasificación otorgada por los clientes, en un rango del 0 al 10. EL NPS  es una visión simplificada pero muy efectiva para conocer qué tan satisfechos se encuentran y si son promotores o detractores de la marca, es decir, su nivel de lealtad. Si no sabes qué es el NPS entonces no te has dado cuenta por qué muchos de los clientes te han abandonado. Hay clientes que puedes estar perdiendo, lo que puede traer como consecuencia la fuga de estos clientes y que no vuelvan más.</p>
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+					    </div>
+					  </div>
 				  </div>
-		<!-------------------------------------------------------------------------------------------------------------------------------------------------------->		  
-				  <div class="card border-success">
+	<!-------------------------------------------------------------------------------------------------------------------------------------------------------->		  			<div class="col-sm-12 col-md-6 col-lg-4 col-xl-4"> <br>
+				  <div class=" card border-success">
 				    <img class="card-img-top" src="Imagenes\nps2.png" width="200px" height="250px">
 				    <div class="card-body">
 					    <h5 class="card-title">¿Para qué sirve el NPS?</h5>
@@ -167,51 +151,55 @@
 						</div>
 				    </div>
 				  </div>
-		<!-------------------------------------------------------------------------------------------------------------------------------------------------------->
-				  <div class="card border-success">
-				    <img class="card-img-top" src="Imagenes\indicador.jpg" width="200px" height="250px">
-				    <div class="card-body">
-					    <h5 class="card-title">¿Cómo calcularlo?</h5>
-					    <p class="card-text">Tras reunir las respuestas, el índice NPS se obtiene finalmente al seguir los dos siguientes pasos:</p>
+				</div>
 
-						<!-- Button trigger modal -->
-						<button type="button" class="btn btn-success" data-toggle="modal" data-target="#comoCalcularlo"> Seguir leyendo </button>
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------->
+				 <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4"> <br>
+					  <div class=" card border-success">
+					    <img class="card-img-top" src="Imagenes\indicador.jpg" width="200px" height="250px">
+					    <div class=" card-body">
+						    <h5 class="card-title">¿Cómo calcularlo?</h5>
+						    <p class="card-text">Tras reunir las respuestas, el índice NPS se obtiene finalmente al seguir los dos siguientes pasos:</p>
 
-						<!-- Modal -->
-						<div class="modal fade" id="comoCalcularlo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-						  <div class="modal-dialog" role="document">
-						    <div class="modal-content">
-						      <div class="modal-header">
-						        <h5 class="modal-title" id="exampleModalLabel">¿Cómo calcularlo?</h5>
-						        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						          <span aria-hidden="true">&times;</span>
-						        </button>
-						      </div>
-						      <div class="modal-body">
-						        <div class="ReparacionHijo2">
-									<div class="main_parrofo">
-										<p class="fraseContinuacion">Tras reunir las respuestas, el índice NPS se obtiene finalmente al seguir los dos siguientes pasos:</p>
-										<ol>
-											<li>Convertir la cantidad de promotores y de detractores en porcentajes, sin tomar en cuenta a los pasivos.</li>
-											<li>Restar al porcentaje de promotores el de los detractores. El resultado es lo que se considera como el porcentaje NPS o el famoso índice NPS.</li>
-										</ol>
-										<p class="fraseContinuacion">Entre los rangos de los posibles resultados NPS, tenemos que:</p>
-										<ul>
-											<li>Un NPS de 100 indica que todos los clientes son promotores.</li>
-											<li>Un resultado de -100, que todos son detractores.</li>
-											<li>Uno de 50 es un excelente resultado.</li>
-											<li>Uno superior a 0 es un buen resultado.</li>
-										</ul>
-									</div>
-						      	</div>
-						      </div>
-						      <div class="modal-footer">
-						        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-						      </div>
-						    </div>
-						  </div>
-						</div>
-				    </div>
+							<!-- Button trigger modal -->
+							<button type="button" class="btn btn-success" data-toggle="modal" data-target="#comoCalcularlo"> Seguir leyendo </button>
+
+							<!-- Modal -->
+							<div class="modal fade" id="comoCalcularlo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <h5 class="modal-title" id="exampleModalLabel">¿Cómo calcularlo?</h5>
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							          <span aria-hidden="true">&times;</span>
+							        </button>
+							      </div>
+							      <div class="modal-body">
+							        <div class="ReparacionHijo2">
+										<div class="main_parrofo">
+											<p class="fraseContinuacion">Tras reunir las respuestas, el índice NPS se obtiene finalmente al seguir los dos siguientes pasos:</p>
+											<ol>
+												<li>Convertir la cantidad de promotores y de detractores en porcentajes, sin tomar en cuenta a los pasivos.</li>
+												<li>Restar al porcentaje de promotores el de los detractores. El resultado es lo que se considera como el porcentaje NPS o el famoso índice NPS.</li>
+											</ol>
+											<p class="fraseContinuacion">Entre los rangos de los posibles resultados NPS, tenemos que:</p>
+											<ul>
+												<li>Un NPS de 100 indica que todos los clientes son promotores.</li>
+												<li>Un resultado de -100, que todos son detractores.</li>
+												<li>Uno de 50 es un excelente resultado.</li>
+												<li>Uno superior a 0 es un buen resultado.</li>
+											</ul>
+										</div>
+							      	</div>
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+					    </div>
+					  </div>
 				  </div>
 				</div>
  			</div>
@@ -236,17 +224,20 @@
 	<br>
 <!--Pie de Página-->
 
-<footer>
-	<ul class="footer">
-		<li class="footer_lista"><img src="Imagenes\logo_paragua.png" width="40" height="40">  Canales de Atención:</li>
-		<li class="footer_lista"><img src="Imagenes\logo_telefono.png" width="40" height="40">  600 390 1000</li>
-		<li class="footer_lista"><img src="Imagenes\logo-whatsapp.png" width="60" height="40">  +56 2 2390 6570</li>
-		<li class="footer_lista"><img src="Imagenes\logo_web.png" width="40" height="40"> 
-		<a class="footer_link" href="https://web.segurosfalabella.com/cl/?_ga=2.118380681.1236180018.1609099463-716833253.1609099463">  web.segurosfalabella.com</a></li>
-	</ul>
-</footer>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
- 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<footer>
+		<ul class="footer">
+			<li class="footer_lista"><img src="Imagenes\logo_paragua.png" width="40" height="40">  Canales de Atención:</li>
+			<li class="footer_lista"><img src="Imagenes\logo_telefono.png" width="40" height="40">  600 390 1000</li>
+			<li class="footer_lista"><img src="Imagenes\logo-whatsapp.png" width="60" height="40">  +56 2 2390 6570</li>
+			<li class="footer_lista"><img src="Imagenes\logo_web.png" width="40" height="40"> 
+			<a class="footer_link" href="https://web.segurosfalabella.com/cl/?_ga=2.118380681.1236180018.1609099463-716833253.1609099463">  web.segurosfalabella.com</a></li>
+		</ul>		
+	</footer>
+
+
+<!--Script-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
